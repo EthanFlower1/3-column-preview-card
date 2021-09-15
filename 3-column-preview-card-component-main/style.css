@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:white;
+}
+.cardHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.card {
+  overflow: hidden;
+  max-width: 900px;
+  min-height: 400px;
+  display: flex;
+}
+.cardSlice {
+  padding: 30px;
+  background-color: hsl(31, 77%, 52%);
+}
+.cardSlice h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cardSlice .btn {
+    color black;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+    color:hsl(31, 77%, 52%)
+  }
+
+.cardSlice2 {
+  padding: 30px;
+  background-color:hsl(184, 100%, 22%);
+}
+.cardSlice2 h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cardSlice2 .btn {
+    color black;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+    color:hsl(184, 100%, 22%)
+  }
+
+
+.cardSlice3 {
+  padding: 30px;
+  background-color:hsl(179, 100%, 13%);
+}
+.cardSlice3 h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cardSlice3 .btn {
+  color black;
+  border-radius: 30px;
+  border-style: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  color:hsl(179, 100%, 13%)
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
